@@ -2,29 +2,35 @@ body{
   font-family: monospace;
   background-color: coral;
   color: gray;
+  margin: 200px;
 }
 
 article{
-  max-width: 60em;
+  max-width: 50em;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 3em;
-  padding-bottom: 5em;
+  padding-top: 1em;
+  padding-bottom: 4em;
   }
 
 
   h1 {
-  	font-size: 2em;
-  	line-height: 2;
+  	font-size: 6em;
+  	line-height: 1;
   }
 
   h2 {
   	font-weight: normal;
   	text-transform: uppercase;
   	letter-spacing: -0.025em;
+    color: darkgray;
   }
 
   p {
-  	margin: 0 0 1em 0;
+    margin: 0 0 3em 0;
   	font-family: monospace;
   }
+ul{
+  color: white;
+  list-style-type: circle;
+}
